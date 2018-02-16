@@ -6,7 +6,7 @@ contact@author.com <!-- one corresponding mail address -->
 ## Additional Info
 
 * __is_blind:__ no  <!-- if you used supervised learning, answer no -->
-* __additional_training_data__ yes  <!-- if you used more data than musdb (not including data augmentation)-->
+* __additional_training_data:__ yes  <!-- if you used more data than musdb (not including data augmentation)-->
 
 ## Supplemental Material
 
@@ -24,5 +24,5 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 ## References
 
-- A. List, Of. Authors, Proceedings of Lorem Ipsum, 2016
-- A. List, Of. Authors, Proceedings of Lorem Ipsum, 2016
+- A. List, Of. Authors, Proceedings of LVA/ICA, 2018
+- A. List, Of. Authors, Proceedings of Lorem Ipsum, 2017
