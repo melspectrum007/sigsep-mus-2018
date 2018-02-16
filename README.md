@@ -69,9 +69,16 @@ In the following we describe the basic steps to create this pull request with yo
 9. Your submission will be tested by an [automated test system](/tests). We may instruct you to update your submission with a few changes. To do so, simply follow steps 2-4 again with your updated submission directory (i.e. navigate to the submissions directory in your fork and upload your new updated folder). The pull request will be updated automatically. Once the tests pass, we will merge your submission.
 10. This the merging should take place before the deadline of __April 1st 2018__.
 
-:warning: please do not delete your estimates as we will aggregate the wav files later through a separate upload system.
+#### Further Notes
+
+- You can submit multiple submission directories in one pull request.
+- :warning: please do not delete your estimates as we will aggregate the wav files later through a separate upload system.
 
 ## Support
 
 If you need help with your submission, you can use our chat or contact @faroit.
 [![Join the chat at https://gitter.im/sigsep-mus-2018/Lobby](https://badges.gitter.im/sigsep-mus-2018/Lobby.svg)](https://gitter.im/sigsep-mus-2018/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+### Acknowledgements
+
+We thank [Colin Raffel](http://colinraffel.com) for the inspiration to use git for handling the SiSEC submissions.
