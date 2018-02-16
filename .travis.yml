@@ -17,7 +17,7 @@ before_install:
 
 install:
     # install your own package into the environment
-    - pip install -e tests/requirements.txt
+    - pip install -e -r tests/requirements.txt
 
 script:
     - python --version
