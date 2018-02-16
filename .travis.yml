@@ -16,8 +16,7 @@ before_install:
     - source activate test-environment
 
 install:
-    # install your own package into the environment
-    - pip install -e -r tests/requirements.txt
+    - pip install jsonschema pytest
 
 script:
     - python --version
