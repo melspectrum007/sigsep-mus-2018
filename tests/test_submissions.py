@@ -70,6 +70,8 @@ def test_submission(submission):
     # verify that all tracks were submitted
     assert len(list(tracks)) == len(track_list)
     assert check_equal([track.stem for track in tracks], track_list)
+    # check if description.md does exist
+    assert P(submission / 'description.md').exists()
 
 
 def test_scores(track):
