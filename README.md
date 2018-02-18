@@ -49,7 +49,7 @@ ABC1/  <---------------------------------- Your estimate short name (max 4 chara
     └── Zeno - Signs.json
 ```
 
-:warning: If you use the STEM encoded, default dataset (instead of decoding it to `wav` first) for your separation method, please make sure that the ffmpeg version used in your separation method has not changed when using `museval` (both rely on [stempeg](https://github.com/faroit/stempeg)). We tested several different machines and ffmpeg version but we cannot guarantee that the decoded outputs of two different ffmpeg versions are identical and would not affect the bsseval scores. E.g. when silence > 512 samples would be added in the beginning of a target source.
+:warning: If you apply your separation method on the default dataset encoded in the STEM format (not converted to `wav` first), please make sure you use the same ffmpeg version for separation and evaluation. We tested several different machines and ffmpeg version and did not run into any problems, but we cannot guarantee that the decoded outputs of two different ffmpeg versions are identical and would not affect the bsseval scores. E.g. when silence > 512 samples would be added in the beginning of a target source.
 
 ### Step 4: Submission to Github
 
